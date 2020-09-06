@@ -1,0 +1,78 @@
+* {
+    margin: 30;
+    padding: 0;
+}
+
+body {
+    background-color: teal;
+
+}
+
+span{
+    position: relative;
+    bottom: 40%;
+}
+
+.holdingcontainer{
+    width: 100%;
+    display: flex;
+    background: #000000;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.internalcontainerL{
+    flex: 1;
+    background :olivedrab;
+    padding: 40px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.internalcontainerM{
+    flex: 1;
+    background: cyan;
+    padding: 40px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.internalcontainerR{
+    flex: 1;
+    background: orange;
+    padding: 40px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+    
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+h2 {
+    position: absolute;
+    left: 16%;
+    top: 14%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+h3 {
+    position: absolute;
+    right: 25%;
+    top: 14%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+h4 {
+    position: absolute;
+    right: 52%;
+    top: 14%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
